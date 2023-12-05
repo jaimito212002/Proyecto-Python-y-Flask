@@ -1,0 +1,10 @@
+<h1>Adivina el número</h1>
+
+<p>{% if resultado %}
+   {{ resultado }}
+{% endif %}</p>
+
+<form action="/" method="post">
+  <input type="number" name="intento">
+  <button type="submit">Enviar</button>
+</form>

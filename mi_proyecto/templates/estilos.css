@@ -1,0 +1,65 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif; 
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Encabezado */
+  h1 {
+    margin: 30px 0;
+  }
+  
+  /* Mensaje resultado */ 
+  .result-message {
+    margin: 20px 0;
+  }
+  
+  .success {
+    color: green;
+  }
+  
+  .error {
+    color: red;  
+  }
+  
+  /* Formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Campo número */
+  input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  /* Botón */
+  button[type="submit"] {
+    padding: 10px 20px;  
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;  
+  }
+  
+  button[type="submit"]:hover {
+    background-color: royalblue;
+  }
+  
+  /* Estilos móvil */
+  @media (max-width: 600px) {
+    form {
+      flex-direction: column;
+    }
+  
+    input, button {
+      width: 100%;
+    }
+  }
